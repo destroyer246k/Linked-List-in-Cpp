@@ -16,6 +16,13 @@ Unlike arrays, linked lists are dynamic in nature and do not require contiguous 
 - **Doubly Linked List** – each node has two pointers: one to the next node and one to the previous node.  
 - **Circular Linked List** – the last node connects back to the first node.  
 
+# Syntax
+```cpp
+class Node {
+    data_type data;   // stores value
+    Node* next;       // pointer to next node
+};
+```
 
 # **Program 1: Creation of a Single Node**  
 
